@@ -1,0 +1,82 @@
+.health {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.health__health {
+  width: 85%;
+  margin-top: 7rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.health__bottom {
+  justify-content: flex-end;
+  display: flex;
+}
+.health__head {
+  font-weight: 600;
+  font-size: 2.5rem;
+  width: 32rem;
+  margin-bottom: 0.8rem;
+}
+.health__para {
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 100%;
+  line-height: 3rem;
+}
+.health__button {
+  color: #002684;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+.health__icon {
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 66em) {
+  .health__health {
+    width: 90%;
+  }
+  .healthbottom__img {
+    width: 45rem;
+  }
+  .health__head {
+    font-size: 2.2rem;
+    width: 40rem;
+  }
+}
+
+@media (max-width: 58em) {
+  .health__health {
+    width: 85%;
+  }
+  .healthbottom__img {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 51em) {
+  .health__health {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .health__head {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .health__button {
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+}

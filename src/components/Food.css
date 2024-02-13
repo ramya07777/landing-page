@@ -1,0 +1,76 @@
+.food {
+  background-color: #eef7f8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.food__food {
+  width: 80%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.food__top {
+  width: 22rem;
+  text-align: center;
+}
+.food__title {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.food__para {
+  color: #000000;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.food__para__margin {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 66em) {
+  .food__title {
+    font-size: 1.6rem;
+  }
+  .food__para {
+    font-size: 1.2rem;
+  }
+  .footimage {
+    width: 5rem;
+  }
+  .food__top {
+    width: 18rem;
+  }
+}
+
+@media (max-width: 52em) {
+  .food__food {
+    width: 90%;
+  }
+}
+
+@media (max-width: 41em) {
+  .food__food {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .food__top {
+    margin: 2rem;
+    width: 100%;
+  }
+  .food__title,
+  .food__para__margin {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  .food__para {
+    font-size: 1.6rem;
+  }
+}

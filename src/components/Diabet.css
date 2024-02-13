@@ -1,0 +1,134 @@
+.diabet__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.diabetimg__know {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #656565;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.diabetimg__top {
+  padding: 1rem;
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.diabetimg__menu {
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  line-height: 2.5rem;
+}
+.diabetimg__para {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #656565;
+  margin-bottom: 0.3rem;
+}
+.diabetimg__know {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #656565;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+.diabet__image {
+  width: 29.7rem;
+  box-shadow: 4px 4px 5px 1px #00000029;
+  border-radius: 1rem;
+}
+.diabet__cal {
+  display: flex;
+  justify-content: space-between;
+}
+.diabet__early {
+  position: absolute;
+  background-color: #002684;
+  z-index: 1;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  width: fit-content;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.diabetgreen {
+  margin-left: 5rem;
+}
+.diabet__botpara {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #0f346c;
+  justify-content: center;
+}
+.diabetimg__clock {
+  margin-right: 0.5rem;
+  margin-top: 0.3rem;
+}
+.diabet__know {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.non__early {
+  width: 29.7rem;
+  height: 20rem;
+}
+
+@media (max-width: 82em) {
+  .diaeraly__img,
+  .diabet__image {
+    width: 25rem;
+  }
+  .non__early {
+    width: 25rem;
+    height: 16rem;
+  }
+  .diabetimg__menu {
+    font-size: 1.5rem;
+  }
+  .diabetimg__know {
+    font-size: 1.2rem;
+  }
+  .diabet__early {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 28em) {
+  .diaeraly__img,
+  .diabet__image {
+    width: 35rem;
+  }
+  .non__early {
+    width: 35rem;
+    height: 22rem;
+  }
+  .diabetimg__menu {
+    font-size: 1.8rem;
+  }
+  .diabetimg__para {
+    font-size: 1.5rem;
+  }
+  .diabetimg__know {
+    font-size: 1.5rem;
+  }
+}

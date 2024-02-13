@@ -1,0 +1,250 @@
+.enquire {
+  background-color: #002684;
+  margin-top: 3rem;
+  height: 20rem;
+  color: white;
+  width: 100%;
+  text-align: center;
+  flex-direction: column;
+}
+.enquire__enquire {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.enquire__top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+.enq__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.enquire__head {
+  font-weight: 600;
+  font-size: 4rem;
+  margin-top: 4rem;
+}
+.enquire__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 83%;
+}
+.enquire__about {
+  display: flex;
+  background-color: white;
+  position: static;
+  margin-top: -7rem;
+  z-index: 1;
+  width: 85%;
+  border-radius: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.en__input {
+  display: flex;
+  flex-direction: column;
+}
+
+.enquire__input {
+  background-color: #d9d9d9;
+  border: none;
+  width: 45rem;
+  height: 5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.enquire__input:focus {
+  border: none;
+}
+.enq__bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 3rem;
+}
+.en__label {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.enquirebot__para {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.enquirebot__para1 {
+  font-weight: 400;
+  font-size: 1rem;
+  width: 35rem;
+  margin-top: 1rem;
+}
+.enquire__choose {
+  margin-top: 1rem;
+  width: 45rem;
+}
+.enqbotimg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #656565;
+  padding: 1rem;
+  width: 95%;
+  height: 8rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+.enqbotimg__bottom {
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.enqbotimg__menu {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+.enqbotimg__para {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #696d75;
+}
+.enq__name {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+.enq__button {
+  display: flex;
+  background-color: #002684;
+  color: white;
+  font-size: 2rem;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  text-transform: uppercase;
+  margin-bottom: 15rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+.enq__button:hover {
+  background-color: #002584d2;
+}
+.enq__icon {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 82em) {
+  .enquire__input {
+    width: 40rem;
+  }
+  .enquire__choose {
+    width: 40rem;
+  }
+  .enqbotimg {
+    width: 80%;
+  }
+  .enqbotimg__menu {
+    font-size: 1.2rem;
+  }
+  .enqbotimg {
+    height: 8rem;
+  }
+  .enqbotimg__bottom {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .enq__button {
+    height: 4rem;
+    width: 20rem;
+    font-size: 1.6rem;
+    margin-bottom: 10rem;
+  }
+  .enquire__head {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 66em) {
+  .enq__name {
+    margin-right: 5rem;
+  }
+}
+
+@media (max-width: 61em) {
+  .enquire__input {
+    width: 45rem;
+    height: 4rem;
+  }
+
+  .enquire__choose,
+  .enquirebot__para1 {
+    width: 45rem;
+  }
+  .enq__center {
+    width: 30rem;
+  }
+  .enq__name {
+    display: flex;
+    margin-right: 0rem;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+  }
+
+  .enqbotimg {
+    width: 28rem;
+  }
+  .enq__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 48em) {
+  .enqbotimg {
+    width: 40rem;
+    padding: 2rem;
+  }
+  .enq__enwimg {
+    margin-right: 2rem;
+  }
+  .enq__name {
+    gap: 0.4rem;
+    flex-direction: column;
+  }
+  .enqbotimg__menu {
+    font-size: 1.5rem;
+  }
+  .enqbotimg__para {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 28em) {
+  .enquire__input {
+    width: 35rem;
+    height: 3rem;
+  }
+  .enquire__choose,
+  .enquirebot__para1 {
+    width: 35rem;
+  }
+}

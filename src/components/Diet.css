@@ -1,0 +1,100 @@
+.diet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+.diet__diet {
+  position: relative;
+  z-index: -1;
+}
+.diet__top {
+  position: absolute;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 22rem;
+  border-radius: 0.5rem;
+}
+.diet__para {
+  font-weight: 600;
+  font-size: 3rem;
+}
+.diet__head {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.diet__see {
+  background-color: #002684;
+  width: 20rem;
+  color: white;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 4rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.diet__arrow {
+  margin-left: 0.5rem;
+}
+.diet__see:hover {
+  background-color: #0025849d;
+}
+
+@media (max-width: 82em) {
+  .diet__diet {
+    width: 90%;
+  }
+}
+
+@media (max-width: 66em) {
+  .diet__para {
+    font-size: 2.5rem;
+  }
+  .diet__head {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 53em) {
+  .diet__top {
+    height: 14rem;
+  }
+  .diet__para {
+    font-size: 2rem;
+  }
+  .diet__head {
+    font-size: 1rem;
+  }
+  .diet__see {
+    width: 15rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 36em) {
+  .diet__para {
+    font-size: 1.6rem;
+  }
+  .diet__see {
+    width: 12rem;
+    height: 3rem;
+  }
+  .diet__top {
+    width: 70%;
+  }
+}
+
+@media (max-width: 32em) {
+  .diet__diet {
+    height: 23rem;
+  }
+}

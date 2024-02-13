@@ -1,0 +1,148 @@
+.header {
+  display: flex;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  z-index: 1;
+}
+
+.header__widht {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__header {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 5rem;
+}
+.header__bottom {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.header__img {
+  background-color: #002684;
+  height: 9rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 1rem 1rem;
+}
+.header__para {
+  color: #0f346c;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.header__para:hover {
+  color: #0f346c57;
+}
+.header__login {
+  color: #757575;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.header__login:hover {
+  color: #75757574;
+}
+.header__start {
+  background-color: #002684;
+  height: 4rem;
+  width: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.header__start:hover {
+  background-color: #002584b8;
+}
+.menuicon {
+  display: none;
+}
+.filterComponent {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  flex: 1;
+}
+.navbar {
+  flex: 1;
+  display: flex;
+  gap: 4rem;
+}
+@media (max-width: 66em) {
+  .filterComponent {
+    gap: 3rem;
+  }
+  .header {
+    width: 95%;
+  }
+  .header__header {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 52em) {
+  .menuicon {
+    display: flex;
+    font-size: 4.5rem;
+    margin-right: 3rem;
+  }
+  .filterComponent {
+    display: none;
+  }
+  .header__header {
+    justify-content: space-between;
+  }
+  .open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42rem;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    width: 100%;
+  }
+  .header__img {
+    margin-left: 3rem;
+    z-index: 1;
+  }
+  .header__bottom {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 32em) {
+  .navbar {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 28em) {
+  .header__img {
+    margin-left: 1rem;
+  }
+  .menuicon {
+    margin-right: 1rem;
+  }
+}

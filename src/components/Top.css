@@ -1,0 +1,130 @@
+.top {
+  background: linear-gradient(
+    90.05deg,
+    rgba(0, 38, 132, 0.19) 1.4%,
+    rgba(238, 247, 248, 0) 126.6%
+  );
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: -1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.top__top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  margin-top: 2rem;
+}
+.top__left {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.top__header {
+  font-weight: 700;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+}
+
+.top__para {
+  font-size: 1rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #656565;
+  width: 80%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.top__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.top__start {
+  background-color: #002684;
+  padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+  color: white;
+  border-radius: 0.8rem;
+  display: flex;
+  align-items: center;
+  margin-right: 4rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  height: 3.5rem;
+}
+
+.top__start:hover {
+  background-color: #002584b8;
+}
+.arrow__icon {
+  margin-left: 1rem;
+}
+.top__bottomm {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.top__play {
+  display: flex;
+  align-items: center;
+}
+.top__play:hover {
+  color: gray;
+}
+.play__para {
+  font-weight: 400;
+  font-size: 1.5rem;
+  width: 15rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 82em) {
+  .top__header {
+    font-size: 3.8rem;
+  }
+}
+
+@media (max-width: 64em) {
+  .top__header {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 61em) {
+  .top__bottom {
+    display: none;
+  }
+  .top__left {
+    grid-column: 1/3;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 37em) {
+  .top__header {
+    font-size: 3rem;
+  }
+  .top__para {
+    width: 98%;
+  }
+}
+
+@media (max-width: 34em) {
+  .top__top {
+    width: 98%;
+  }
+}

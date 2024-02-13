@@ -1,0 +1,100 @@
+.slidee {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.slideee {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  background-color: #0026841c;
+  width: 33rem;
+  padding: 4rem;
+  border-radius: 0.8rem;
+}
+.slick-active {
+  opacity: 0.5;
+}
+.slick-current {
+  opacity: 1 !important;
+  margin-top: -3rem;
+}
+.slick-current img {
+  margin-left: -2rem !important;
+}
+
+.slide__para {
+  width: 30rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+.slide__head {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #67646a;
+  margin-top: 2rem;
+}
+.slide__paraa {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-top: 0.2rem;
+  color: #413d45;
+}
+.slide__week {
+  color: #002684;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+.carus {
+  text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.slick-dots li button:before {
+  color: #c5c5c5;
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+.top__slide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top__slide {
+  width: 90%;
+}
+
+.slick-initialized .slick-slide {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 82em) {
+  .top__slide {
+    width: 98%;
+  }
+}
+
+@media (max-width: 66em) {
+  .slide__para {
+    width: 25rem;
+  }
+  .slide__para {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 58em) {
+  .slide__para {
+    width: 30rem;
+  }
+}
